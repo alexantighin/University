@@ -23,8 +23,8 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
   - [Persoana](#Persoana)
   - [Student](#Student)
   - [Profesor](#Profesor)
-  - PersoaneUniversitate
-  - Meniu
+  - [PersoaneUniversitate](#PersoaneUniversitate)
+  - [Meniu](#Meniu)
   
   #### Data
   Aceasta clasa contine 3 membri privati de tip integer in care se stocheaza ziua, luna si anul dintr-o data. Se poate crea un obiect de tip Data prin intermediul unuia dintre cei 3 constructori (vid, cu parametri, de copiere). Contine metode de citire si afisare a informatiilor necesare, dar pentru o usurinta in plus operatorul >> este supraincarcat pentru citire si opearatorul << pentru afisare.
