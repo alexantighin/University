@@ -1,0 +1,32 @@
+Georgescu
+Anatolie
+1 4 1956
+2
+Ion
+0349275232
+5 8 2003
+5
+Iliescu
+Anghel
+23 5 1987
+2
+Andrei
+0760571568
+28 1 2007
+3
+Stancu
+Octaviana
+30 8 1966
+1
+Paul
+0767711029
+2 2 1999
+2
+Popescu
+Ion
+21 8 1970
+2
+George
+0746987476
+15 4 2007
+3

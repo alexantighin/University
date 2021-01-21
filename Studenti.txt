@@ -1,0 +1,40 @@
+Mocanu
+Dragos
+16 5 1991
+2
+Gheorghe
+0774470438
+2523
+1
+Olariu
+Andreea
+28 3 1993
+1
+Pavel
+0708349465
+2443
+1
+Olteanu
+Alexandru
+19 2 1995
+2
+Aurel
+0733750567
+2549
+2
+Serban
+Ioana
+6 1 1995
+1
+Ionut
+0254414972
+6011
+2
+Popovici
+Mihai
+2 1 1997
+2
+Dumitru
+0784187738
+4929
+1
