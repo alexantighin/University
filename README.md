@@ -29,7 +29,15 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
   #### Data
   Aceasta clasa contine 3 membri privati de tip integer in care se stocheaza ziua, luna si anul dintr-o data. Se poate crea un obiect de tip Data prin intermediul unuia dintre cei 3 constructori (vid, cu parametri, de copiere). Contine metode de citire si afisare a informatiilor necesare, dar pentru o usurinta in plus operatorul >> este supraincarcat pentru citire si opearatorul << pentru afisare.
   #### Persoana
-  Aceasta este clasa de baza care contine membri protected pentru a fi ulterior mosteniti de clasele derivate. Constructorii nu sunt de tip publici pentru a impiedica crearea unui obiect de tip Persoana fara ca acesta sa nu fie Student sau Profesor. In cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca in momentul in care sunt apelat deconstructorul.
+  Aceasta este clasa de baza care contine membri protected pentru a fi ulterior mosteniti de clasele derivate. Prin intermediul abstractizarii constructorii nu sunt de tip publici pentru a impiedica crearea unui obiect de tip Persoana fara ca acesta sa nu fie Student sau Profesor. In cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca in momentul in care sunt apelat deconstructorul.
   #### Student
-  Aceasta clasa foloste conceptul de mostenire, ea fiind derivata din clasa Persoana, preluand toate informatiile acesteia, dar avand si ea la randul ei 2 membri unici, numarMatricol si programStudiu.
+  Aceasta clasa foloste conceptul de mostenire, ea fiind derivata din clasa Persoana, preluand toate informatiile acesteia, dar avand si ea la randul ei 2 membri unici, numarMatricol si programStudiu. Cu ajutorul polimorfismului, unul dintre cele mai importante principii ale programarii de tip OOP, se pot folosi aceleasi denumiri pentru diferite scopuri. Aceasta clasa utilizeaza acelasi nume pentru constructori, chiar daca au argumente de tipuri diferite, dar si supraincarca operatorii =, >> si <<.
+  #### Profesor
+  Ca si celelalte clase si aceasta foloseste principiul incapsularii, ce consta in combinarea membrilor de tip data cu cei de tip functii sau metode intr-o singura unitate. Precum clasa Student si clasa Profesor mosteneste clasa de baza Persoana, avand si ea 2 membri unici, unul dintre ei fiind de tip Data.
+  #### PersoaneUniversitate
+  Aceasta clasa contine instante ale claselor Student si Profesor, dar si 2 membri ce contorizeaza numarul de persoane.
+  #### Meniu
+  Cu ajutorul aceste clase se poate accesa interfata aplicatiei.
+  
+  
   
