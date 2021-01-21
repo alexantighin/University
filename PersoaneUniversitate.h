@@ -3,12 +3,6 @@
 #include "Student.h"
 #include "Profesor.h"
 
-enum class TIP_PERSOANA
-{
-	STUDENT = 1,
-	PROFESOR = 2
-};
-
 class PersoaneUniversitate
 {
 private:
