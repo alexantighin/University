@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.en.md), [Romanian](README.md).*
 
-Proiectul are la bază limbajul de programare C++ și include câteva concepte de bază ale Programării Orientată pe Obiecte precum, abstractizarea, incapsularea, moștenirea și polimorfismul. Aplicația conține o clasă de bază [Persoana](#Persoana) și două derivate din ea, [Student](#Student) și [Profesor](#Profesor). Clasa [PersoaneUniversitate](#PersoaneUniversitate) conține instanțe ale celor două clase derivate, iar prin intermediul clasei [Meniu](#Meniu) se poate accesa interfața proiectului prin intermediul consolei. În cele două documente cu extensia .txt ([Studenti](Studenti.txt) și Profesori) se găsesc informațiile inițiale cu privire la cele două tipuri de persoane, ca mai apoi prin intermediul consolei să se poată folosi metode de Afișare, Adăugare și Ștergere.
+Proiectul are la bază limbajul de programare C++ și include câteva concepte de bază ale Programării Orientată pe Obiecte precum, abstractizarea, incapsularea, moștenirea și polimorfismul. Aplicația conține o clasă de bază [Persoana](#Persoana) și două derivate din ea, [Student](#Student) și [Profesor](#Profesor). Clasa [PersoaneUniversitate](#PersoaneUniversitate) conține instanțe ale celor două clase derivate, iar prin intermediul clasei [Meniu](#Meniu) se poate accesa interfața proiectului prin intermediul consolei. În cele două documente cu extensia .txt ([Studenti](Studenti.txt) și [Profesori](Profesori.txt)) se găsesc informațiile inițiale cu privire la cele două tipuri de persoane, ca mai apoi prin intermediul consolei să se poată folosi metode de Afișare, Adăugare și Ștergere.
 
 ## Interfața
 
@@ -27,7 +27,7 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
   - [Meniu](#Meniu)
   
   #### Data
-  Aceasta clasa contine 3 membri privati de tip integer in care se stocheaza ziua, luna si anul dintr-o data. Se poate crea un obiect de tip Data prin intermediul unuia dintre cei 3 constructori (vid, cu parametri, de copiere). Contine metode de citire si afisare a informatiilor necesare, dar pentru o usurinta in plus operatorul >> este supraincarcat pentru citire si opearatorul << pentru afisare.
+  Această clasă conține trei membri privați de tip integer în care se stochează ziua, luna și anul dintr-o dată. Se poate crea un obiect de tip [Data](Data.h) prin intermediul unuia dintre cei trei constructori (vid, cu parametri și de copiere). Conține metode de citire și afisare a informațiilor necesare, dar pentru o ușurință în plus, operatorul >> este supraîncărcat pentru citire și opearatorul << pentru afișare.
   #### Persoana
   Aceasta este clasa de baza care contine membri protected pentru a fi ulterior mosteniti de clasele derivate. Prin intermediul abstractizarii constructorii nu sunt de tip publici pentru a impiedica crearea unui obiect de tip Persoana fara ca acesta sa nu fie Student sau Profesor. In cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca in momentul in care sunt apelat deconstructorul.
   #### Student
