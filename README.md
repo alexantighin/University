@@ -19,13 +19,18 @@ Proiectul are la bază limbajul de programare C++ și include concepte de Progra
 </p>
 
 ## Clase
-  - [GitHub](#github)
-    - [Ignore Whitespace](#ignore-whitespace)
-    - [Adjust Tab Space](#adjust-tab-space)
-    - [Commit History by Author](#commit-history-by-author)
-    - [Cloning a Repository](#cloning-a-repository)
-    - [Branch](#branch)
-      - [Compare all Branches to Another Branch](#compare-all-branches-to-another-branch)
-      - [Comparing Branches](#comparing-branches)
-      - [Compare Branches across Forked Repositories](#compare-branches-across-forked-repositories)
+  - [Data](#Data)
+  - [Persoana](#Persoana)
+  - [Student](#Student)
+  - [Profesor](#Profesor)
+  - [PersoaneUniversitate](#PersoaneUniversitate)
+  - [Meniu](#Meniu)
+  
+  ### Data
+  ### Persoana
+  ### Student
+  ### Profesor
+  ### PersoaneUniversitate
+  ### Meniu
+
 
