@@ -2,5 +2,7 @@
 
 *Read this in other languages: [English](README.en.md), [Romanian](README.md).*
 
-Proiectul presupune implementarea unui sistem prin care utilizatorul poate ajusta umidatea solului prin intermediul unei pompe de apă controlată printr-un telefon. Se folosește un senzor de umiditate a solului pentru a verifica în permanență dacă trebuie ajustată umiditatea sau nu. Utilizatorul poate vedea mereu procentul de umiditate și în momentul în
-care acesta a scăzut poate alege să controleze pompa de apă în mod manual sau în mod automat. În modul manual, se poate porni și opri pompa în permanență. În modul automat, pompa va porni pentru o periodă de timp în care umiditatea solului va crește.
+Proiectul are la baza limbajul de programare C++ si include concepte de Programare Orientata pe Obiecte precum, abstractizarea, incapsularea, mostenirea si polimorfismul. Aplicatia contine o clasa de baza Persoana si doua derivate din ea, Student si Profesor. Clasa PersoaneUniversitate contine instante ale celor doua clase derivate, iar prin intermediul clasei Meniu se poate accesa interfata proiectului prin intermediul consolei. In cele doua documente cu extensia .txt (Studenti si Profesori) se gasesc informatiile initiale cu privire la cele doua tipuri de persoane, ca mai apoi prin intermediul consolei sa se poate folosi metode de Afisare, Adaugare si Stergere.
+
+## Interfata
+
