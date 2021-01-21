@@ -19,9 +19,17 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
 </p>
 
 ## Clase
-  - Data
-  - Persoana
-  - Student
-  - Profesor
+  - [Data](#Data)
+  - [Persoana](#Persoana)
+  - [Student](#Student)
+  - [Profesor](#Profesor)
   - PersoaneUniversitate
   - Meniu
+  
+  #### Data
+  Aceasta clasa contine 3 membri privati de tip integer in care se stocheaza ziua, luna si anul dintr-o data. Se poate crea un obiect de tip Data prin intermediul unuia dintre cei 3 constructori (vid, cu parametri, de copiere). Contine metode de citire si afisare a informatiilor necesare, dar pentru o usurinta in plus operatorul >> este supraincarcat pentru citire si opearatorul << pentru afisare.
+  #### Persoana
+  Aceasta este clasa de baza care contine membri protected pentru a fi ulterior mosteniti de clasele derivate. Constructorii nu sunt de tip publici pentru a impiedica crearea unui obiect de tip Persoana fara ca acesta sa nu fie Student sau Profesor. In cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca in momentul in care sunt apelat deconstructorul.
+  #### Student
+  Aceasta clasa foloste conceptul de mostenire, ea fiind derivata din clasa Persoana, preluand toate informatiile acesteia, dar avand si ea la randul ei 2 membri unici, numarMatricol si programStudiu.
+  
