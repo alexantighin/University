@@ -35,7 +35,7 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
   #### Profesor
   Ca și celelalte clase și aceasta folosește principiul încapsulării, ce constă în combinarea membrilor de tip data cu cei de tip funcții sau metode într-o singură unitate. Precum clasa [Student](Student.h) si clasa [Profesor](Profesor.h) moștenește clasa de baza [Persoana](Persoana.h), având și ea doi membri unici, unul dintre ei fiind de tip [Data](Data.h).
   #### PersoaneUniversitate
-  Această clasă conține instanțe ale claselor [Student](Student.h) si [Profesor](Profesor.h), dar și doi membri ce contorizează numărul de persoane.
+  Această clasă conține instanțe ale claselor [Student](Student.h) și [Profesor](Profesor.h), dar și doi membri ce contorizează numărul de persoane.
   #### Meniu
   Cu ajutorul acestei clase se poate accesa interfața aplicatiei. 
   
