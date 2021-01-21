@@ -19,25 +19,23 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
 </p>
 
 ## Clase
-  - [Data](#Data)
-  - [Persoana](#Persoana)
-  - [Student](#Student)
-  - [Profesor](#Profesor)
-  - [PersoaneUniversitate](#PersoaneUniversitate)
-  - [Meniu](#Meniu)
+  - [Data](Data.h)
+  - [Persoana](Persoana.h)
+  - [Student](Student.h)
+  - [Profesor](Profesor.h)
+  - [PersoaneUniversitate](PersoaneUniversitate.h)
+  - [Meniu](Meniu.h)
   
   #### Data
   Această clasă conține trei membri privați de tip integer în care se stochează ziua, luna și anul dintr-o dată. Se poate crea un obiect de tip [Data](Data.h) prin intermediul unuia dintre cei trei constructori (vid, cu parametri și de copiere). Conține metode de citire și afisare a informațiilor necesare, dar pentru o ușurință în plus, operatorul >> este supraîncărcat pentru citire și opearatorul << pentru afișare.
   #### Persoana
-  Aceasta este clasa de baza care contine membri protected pentru a fi ulterior mosteniti de clasele derivate. Prin intermediul abstractizarii constructorii nu sunt de tip publici pentru a impiedica crearea unui obiect de tip Persoana fara ca acesta sa nu fie Student sau Profesor. In cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca in momentul in care sunt apelat deconstructorul.
+  Aceasta este clasa de bază care conține membrii protected pentru a fi ulterior moșteniți de clasele derivate. Prin intermediul abstractizării constructorii nu sunt de tip publici pentru a împiedica crearea unui obiect de tip [Persoana](Persoana.h) fără ca acesta sa nu fie [Student](Student.h) sau [Profesor](Profesor.h). În cazul datelor de tip char* s-au folosit operatorii new si delete pentru a aloca spatiu necesar in memorie si respectiv pentru a dealoca în momentul în care este apelat deconstructorul.
   #### Student
-  Aceasta clasa foloste conceptul de mostenire, ea fiind derivata din clasa Persoana, preluand toate informatiile acesteia, dar avand si ea la randul ei 2 membri unici, numarMatricol si programStudiu. Cu ajutorul polimorfismului, unul dintre cele mai importante principii ale programarii de tip OOP, se pot folosi aceleasi denumiri pentru diferite scopuri. Aceasta clasa utilizeaza acelasi nume pentru constructori, chiar daca au argumente de tipuri diferite, dar si supraincarca operatorii =, >> si <<.
+  Această clasă folosește conceptul de moștenire, ea fiind derivată din clasa [Persoana](Persoana.h), preluând toate informațiile acesteia, dar având și ea la randul ei doi membri unici, numarMatricol și programStudiu. Cu ajutorul polimorfismului, unul dintre cele mai importante principii ale programarii de tip OOP, se pot folosi aceleași denumiri pentru diferite scopuri. Această clasă utilizează același nume pentru constructori, chiar dacă au argumente de tipuri diferite, dar și supraîncarcă operatorii =, >> și <<.
   #### Profesor
-  Ca si celelalte clase si aceasta foloseste principiul incapsularii, ce consta in combinarea membrilor de tip data cu cei de tip functii sau metode intr-o singura unitate. Precum clasa Student si clasa Profesor mosteneste clasa de baza Persoana, avand si ea 2 membri unici, unul dintre ei fiind de tip Data.
+  Ca și celelalte clase și aceasta folosește principiul încapsulării, ce constă în combinarea membrilor de tip data cu cei de tip funcții sau metode într-o singură unitate. Precum clasa [Student](Student.h) si clasa [Profesor](Profesor.h) moștenește clasa de baza [Persoana](Persoana.h), având și ea doi membri unici, unul dintre ei fiind de tip [Data](Data.h).
   #### PersoaneUniversitate
-  Aceasta clasa contine instante ale claselor Student si Profesor, dar si 2 membri ce contorizeaza numarul de persoane.
+  Această clasă conține instanțe ale claselor [Student](Student.h) si [Profesor](Profesor.h), dar și doi membri ce contorizează numărul de persoane.
   #### Meniu
-  Cu ajutorul aceste clase se poate accesa interfata aplicatiei.
-  
-  
+  Cu ajutorul acestei clase se poate accesa interfața aplicatiei. 
   
