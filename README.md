@@ -26,8 +26,8 @@ Proiectul are la bază limbajul de programare C++ și include concepte de Progra
   - [PersoaneUniversitate](#PersoaneUniversitate)
   - [Meniu](#Meniu)
   
-  ### Data
-  ### Persoana
+  #### Data
+  #### Persoana
   ### Student
   ### Profesor
   ### PersoaneUniversitate
