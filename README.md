@@ -7,7 +7,7 @@ Proiectul are la bază limbajul de programare C++ și include câteva concepte d
 ## Interfața
 
 <p align="center">
-  <img src="https://i.ibb.co/xDHrDV8/Screenshot-2.png">
+  <img src="https://i.ibb.co/HPCw9tm/Screenshot-3.png">
 </p>
 
 <p align="center">
